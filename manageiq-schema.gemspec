@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{db,lib}/**/*", "LICENSE.txt", "Rakefile", "README.md"]
 
   s.add_dependency "activerecord-id_regions", "~> 0.3.0"
-  s.add_dependency "linux_admin", "~> 1.2"
+  s.add_dependency "linux_admin", "~> 2.0"
   s.add_dependency "manageiq-password", "~> 0.3"
   s.add_dependency "more_core_extensions", "~> 3.5"
   s.add_dependency "pg"
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "codeclimate-test-reporter", "~> 1.0.0"
   s.add_development_dependency "rspec"
   s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "rubocop", "~> 0.52.1"
+  s.add_development_dependency "rubocop", "~> 0.69.0"
+  s.add_development_dependency "rubocop-performance"
   s.add_development_dependency "simplecov"
 end
